@@ -10,6 +10,7 @@
             android:drawable="@drawable/pb_corner_single_secondary"
             android:scaleWidth="100%" />
     </item>
+
     <item android:id="@android:id/progress">
         <scale
             android:drawable="@drawable/pb_corner_single_progress"

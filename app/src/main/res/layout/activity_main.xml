@@ -12,23 +12,27 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="加载中" />
 
         <ProgressBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:indeterminateDuration="800"
-            android:indeterminateDrawable="@drawable/pb_loading" />
+            android:layout_marginBottom="10dp"
+            android:indeterminateDrawable="@drawable/pb_loading"
+            android:indeterminateDuration="800" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="横向进度条" />
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:max="100"
             android:progress="30"
             android:progressDrawable="@drawable/pb_rectangle"
@@ -37,6 +41,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="圆角单色横向进度条" />
 
         <ProgressBar
@@ -44,29 +49,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:max="108"
-            android:progress="8"
+            android:max="100"
+            android:progress="3"
             android:progressDrawable="@drawable/pb_corner_single" />
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:progress="38"
+            android:layout_marginBottom="10dp"
+            android:max="100"
+            android:progress="30"
             android:progressDrawable="@drawable/pb_corner_single"
             android:secondaryProgress="60" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="圆角渐变横向进度条" />
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:max="100"
             android:progress="60"
-            android:progressDrawable="@drawable/pb_corner_gradient" />
+            android:progressDrawable="@drawable/pb_corner_gradient"
+            android:secondaryProgress="90" />
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>
